@@ -1,1 +1,1 @@
-# ui-flex
+responsive UI project using flexbox

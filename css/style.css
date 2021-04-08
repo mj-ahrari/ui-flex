@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'bnazanin';
+    src: url('../fonts/B-NAZANIN.TTF');
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    padding: 2px 10px 2px 10px;
+}
+.bg-dark{
+    background-color: #333;
+}
+.text-primary{
+    color: blue;
+}
+.navbar-nav{
+    display: flex;
+    list-style: none;
+    flex-direction: row-reverse;
+}
+.nav-item{
+    margin-right: 15px;
+    font-family: 'bnazanin';
+}
+.nav-link{
+    padding: 2px 5px 2px 5px;
+    border-radius: 7px;
+}
+.nav-link:hover{
+    background-color: chocolate;
+}

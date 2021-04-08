@@ -1,0 +1,17 @@
+.item{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+}
+.item i{
+    color: blue;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+.item p{
+    margin-top: 5px;
+    margin-right: 10px;
+}

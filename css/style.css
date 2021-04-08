@@ -62,6 +62,9 @@ a{
 #header h1{
     font-family: 'btitr';
 }
+#header p{
+    text-align: center;
+}
 #header {
     font-size: 1.2rem;
 }
@@ -113,4 +116,117 @@ a{
 }
 .pb-3{
     padding-bottom: 3px;
+}
+#sec1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#sec1 h1{
+    text-align: center;
+    font-family: 'btitr';
+}
+#sec1-content{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+}
+.item i{
+    color: blue;
+    margin-bottom: 5px;
+}
+.item p{
+    margin-top: 5px;
+}
+#sec2{
+    display: flex;
+    flex-direction: row;
+}
+#left{
+    background-image: url('../images/photo-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    flex: 1;
+}
+#right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 300px;
+    color: white;
+    padding: 5px 10px 5px 0px;
+}
+#right h3{
+    font-family: 'btitr';
+    padding: 5px 30px 5px 0px;
+}
+#right p{
+    padding: 3px 10px 5px 0px;
+    text-align: right;
+}
+#right ul{
+    list-style: none;
+    padding: 3px 10px 0px 0px;
+    width: 70%;
+}
+#right ul li {
+    border-bottom: dotted 1px #fff;
+    text-align: right;
+}
+#sec3{
+    margin-top: 5px;
+    margin-bottom: 5px;;
+}
+#sec3 h1{
+    text-align: center;
+    font-family: 'btitr';
+}
+#sec3-content{
+    display: flex;
+    justify-content: center;
+}
+#sec3-content div{
+    flex-basis: 180px;
+    margin: 10px 20px 10px 20px;
+}
+#sec3-content div img{
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+
+}
+#sec4{
+    display: flex;
+    justify-content: center;
+    text-align: right;
+}
+#sec4-container{
+    width: 50%;
+}
+#sec4-container label{
+    display: block;
+    margin-top: 7px;
+}
+#sec4-container input, #sec4-container textarea{
+    width: 100%;
+    padding: 8px;
+    direction: rtl;
+}
+#footer{
+    display: flex;
+    background-color: #333;
+    justify-content: space-between;
+    color: white;
+    padding: 10px 30px 10px 30px;
+    align-items: center;
 }
